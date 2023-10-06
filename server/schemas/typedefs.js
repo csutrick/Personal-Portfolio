@@ -3,7 +3,7 @@ const { gql } = require('apollo-server-express');
 const typeDefs = gql`
     type Offer {
         _id: ID
-        OfferText: String
+        offerText: String
         offerSender: String
         createdAt: String
     }
@@ -11,6 +11,11 @@ const typeDefs = gql`
     type Query {
         offers: [Offer]!
         offer(offerId: ID!): Offer
+    }
+
+    type Mutation {
+        addOffer(offerText: String!, offerSender: String!): Offer
+        removeOffer(offerId: ID!): Offer
     }
 `;
 
