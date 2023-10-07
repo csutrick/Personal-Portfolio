@@ -1,6 +1,10 @@
 import React from "react";
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
+import Home from './pages/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 const client = new ApolloClient({
   uri: '/graphql',
   cache: new InMemoryCache(),
@@ -9,8 +13,10 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <div className='bg-red-400'>
-        <h1 className='text-green-700'>Test</h1>
+      <div className='flex flex-col justify-center'>
+        <Header />
+        <Home />
+        <Footer />
       </div>
     </ApolloProvider>
   );
