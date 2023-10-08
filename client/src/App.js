@@ -1,7 +1,7 @@
 import React from "react";
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
-import Home from './pages/Home';
+import Contact from "./components/Contact";
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -14,7 +14,9 @@ function App() {
   return (
     <ApolloProvider client={client}>
         <Header />
-        <Home />
+        <body>
+          <Contact />
+        </body>
         <Footer />
     </ApolloProvider>
   );
