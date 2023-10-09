@@ -39,21 +39,21 @@ const OfferForm = () => {
 
     return (
         <form onSubmit={handleFormSubmit}
-        className='flex flex-col items-center w-min p-1'>
-            <div>
-                <label className='text-sm italic text-white pl-2
-                '>Who is this from?</label>
+        className='flex flex-col items-center p-1 w-[70%]'>
+            <div className='w-full'>
+                <label className='text-xs md:text-sm italic text-white pl-2
+                '>Personal Name or Company Name</label>
                 <input onChange={handleChange} name="offerSender"
                     placeholder="From..."
                     value={formState.offerSender}
-                    className='w-[400px] h-[50px] mb-2
+                    className='w-full h-[50px] mb-2
                     rounded-lg pl-1 drop-shadow-md hover:drop-shadow-lg active:drop-shadow-lg'
                 />
             </div>
 
-            <div className='w-[400px]'>
-                <label className='text-sm italic text-white pl-2
-                '>Type message below</label>
+            <div className='w-full'>
+                <label className='text-xs md:text-sm italic text-white pl-2
+                '>Type message below, include your prefered contact</label>
                 <textarea onChange={handleChange} name="offerText"
                     placeholder="Message..."
                     value={formState.offerText}
@@ -69,8 +69,8 @@ const OfferForm = () => {
             </div>
 
             <button type="submit"
-                className='flex items-center px-4 py-1 mt-4 text-white
-                bg-blue-300 rounded-lg font-bold text-xl drop-shadow-md hover:drop-shadow-lg
+                className='flex items-center px-6 py-2 mt-4 text-white
+                bg-blue-300 rounded-lg font-bold text-4xl drop-shadow-md hover:drop-shadow-lg
                 hover:scale-105 transition-all duration-200 ease-in'>
                 Send <AiOutlineSend className='ml-2'/>
             </button>
