@@ -1,8 +1,9 @@
 import React from "react";
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
-import Contact from "./components/Contact";
 import Header from './components/Header';
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import Footer from './components/Footer';
 
 const client = new ApolloClient({
@@ -15,6 +16,7 @@ function App() {
     <ApolloProvider client={client}>
         <Header />
         <body>
+          <Projects />
           <Contact />
         </body>
         <Footer />
