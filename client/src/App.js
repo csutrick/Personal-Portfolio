@@ -1,7 +1,7 @@
 import React from "react";
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
-import Header from './components/Header';
+import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Bootcamp from "./components/Bootcamp";
 import Projects from "./components/Projects";
@@ -16,7 +16,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-        <Header />
+        <Navbar />
         <body>
           <About />
           <Bootcamp />
