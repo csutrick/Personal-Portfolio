@@ -1,52 +1,66 @@
-import React from "react";
+import { React, useState } from "react";
 import { HiOutlineDocumentText } from 'react-icons/hi'
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail, AiOutlineClose } from 'react-icons/ai'
+import { HiMenu } from 'react-icons/hi'
+
+const navLinks = [
+    { title: 'About', link:'about' },
+    { title: 'Experience', link:'experience' },
+    { title: 'Projects', link:'projects' },
+    { title: 'Contact Me', link:'contact' },
+];
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleNavbar = () => {
+        setIsOpen(!isOpen);
+    };
+    const smoothScroll = (targetId) => {
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+            window.scrollTo({
+                top: targetSection.offsetTop,
+                behavior: 'smooth'
+            });
+        };
+    };
+
     return (
-        <nav className='fixed top-0 w-full flex justify-center backdrop-blur-md bg-[#0077B6]/40 z-10'>
-            <div className='mx-12 w-[1250px] h-[50px] flex justify-between items-center'>
-                <ul className='flex font-bold'>
-                    {[
-                        ['About', '/'],
-                        ['Experience', '/'],
-                        ['Projects', '/'],
-                        ['Contact Me', '/'],
-                    ].map(([title, link]) => (
-                        <li href={link} className='px-2 mx-1 hover:scale-105 text-white hover:text-[#d6f1f7] border-b-2 border-b-transparent hover:border-[#d6f1f7]'>{title}</li>
+        <nav className='fixed top-0 w-full flex justify-center backdrop-blur-md bg-[#0077B6]/40 z-20'>
+            <div className='mx-12 w-[1250px] flex justify-between py-2'>
+                <ul className='hidden md:flex md:items-center'>
+                    {navLinks.map((navLinks, index) => (
+                        <li key={index} href={'#' + navLinks.link} onClick={() => smoothScroll(navLinks.link)}
+                        className='px-3 mx-2 font-bold text-lg tracking-wide whitespace-nowrap duration-200 ease-out transition-all
+                        hover:scale-110 text-white hover:text-[#d6f1f7] active:text-[#59A5D8] border-b-2 border-transparent hover:border-[#d6f1f7] active:border-[#59A5D8]'>{navLinks.title}</li>
                     ))}
                 </ul>
-                <div className='flex'>
-                    <a href="http://example.com/" target="_blank" rel="noopener noreferrer"
-                        className='relative group text-4xl mx-1 text-white hover:text-[#d6f1f7]'>
-                        <HiOutlineDocumentText className='hover:scale-105'/>
-                        <div className='absolute pointer-events-none -left-7 -bottom-[75px] z-10
-                        text-white text-base text-bold whitespace-nowrap bg-[#84D2F6] rounded-lg p-2
-                        transition-opacity opacity-0 group-hover:opacity-100 duration-1000'>
-                            <h2 className='text-center'>Download<br />Resume</h2>
-                            <div className='bg-[#84D2F6] absolute w-[25px] h-[25px] left-8 bottom-11 rotate-45'
-                            style={{ clipPath: 'polygon(0 0, 0% 100%, 100% 0)' }}></div>
-                        </div>
-                    </a>
-                    <a href="http://example.com/" target="_blank" rel="noopener noreferrer"
-                        className='text-4xl mx-1 text-white hover:text-[#d6f1f7] hover:scale-105'>
-                        <AiFillGithub /> 
-                    </a>
-                    <a href="http://example.com/" target="_blank" rel="noopener noreferrer"
-                        className='text-4xl mx-1 text-white hover:text-[#d6f1f7] hover:scale-105'>
-                        <AiFillLinkedin /> 
-                    </a>
-                    <a href="http://example.com/" target="_blank" rel="noopener noreferrer"
-                        className='relative group text-4xl mx-1 text-white hover:text-[#d6f1f7]'>
-                        <AiOutlineMail className='hover:scale-105'/> 
-                        <div className='absolute pointer-events-none -left-8 -bottom-[50px] z-10
-                        text-white text-base text-bold whitespace-nowrap bg-[#84D2F6] rounded-lg p-2
-                        transition-opacity opacity-0 group-hover:opacity-100 duration-1000'>
-                            <h2>Copy Email</h2>
-                            <div className='bg-[#84D2F6] absolute w-[25px] h-[25px] left-9 bottom-5 rotate-45'
-                            style={{ clipPath: 'polygon(0 0, 0% 100%, 100% 0)' }}></div>
-                        </div>
-                    </a>
+                <div className='flex flex-col md:hidden justify-between'>
+                    <button onClick={toggleNavbar} className='text-white'>
+                        {isOpen ? <AiOutlineClose className='text-4xl'/> : <HiMenu className='text-4xl'/>}
+                    </button>
+                    {isOpen && (
+                        <ul className='flex flex-col'>
+                        {navLinks.map((navLinks, index) => (
+                            <li key={index} href={'#' + navLinks.link} onClick={() => smoothScroll(navLinks.link)}
+                            className='pl-1 pr-4 py-2 font-bold text-white active:text-[#59A5D8] text-lg tracking-wide duration-200 ease-out transition-all'>{navLinks.title}</li>
+                        ))}
+                        </ul>
+                    )}
+                </div>
+                <div className='flex h-min content-start'>
+                    <div className='flex h-min mx-2'>
+                        <HiOutlineDocumentText className='text-4xl hover:scale-110 text-white hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'/>
+                    </div>
+                    <div className='h-min mx-2'>
+                        <AiFillGithub className='text-4xl text-white hover:scale-110 hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'/>
+                    </div>
+                    <div className='h-min mx-2'>
+                        <AiFillLinkedin className='text-4xl text-white hover:scale-110 hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'/>
+                    </div>
+                    <div className='h-min mx-2'>
+                        <AiOutlineMail className='text-4xl text-white hover:scale-110 hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'/>
+                    </div>
                 </div>
             </div>
         </nav>

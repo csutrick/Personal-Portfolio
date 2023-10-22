@@ -4,7 +4,7 @@ import OfferForm from './offerForm';
 
 const Contact = () => {
     return (
-        <section className='bg-white flex w-full justify-center pt-16 pb-32'>
+        <section className='bg-white flex w-full justify-center pt-16 pb-32' id="contact">
             <div className='mx-12 flex flex-col w-[1250px] p-8 px-16 relative justify-center items-center
             bg-[#386FA4] rounded-xl drop-shadow-lg'>
                 {/* Decoration */}

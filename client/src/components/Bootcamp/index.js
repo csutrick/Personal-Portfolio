@@ -3,7 +3,7 @@ import webDevBadge from "../../Assets/full-stack-web-development-certificate-cod
 
 const Bootcamp = () => {
     return (
-        <section className='w-full flex justify-center'>
+        <section className='w-full flex justify-center' id="experience">
             <div className='relative p-8 mx-12 my-16 w-[1250px] flex bg-[#386FA4] rounded-2xl justify-center drop-shadow-lg'>
                 {/* Decoration */}
                 <div className='absolute grid grid-rows-2 grid-cols-2 gap-2 top-0 left-0 drop-shadow-md'>
