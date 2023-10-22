@@ -4,7 +4,7 @@ import images from '../../Assets/project-thumbnails/index.js';
 
 const Projects = () => {
     return (
-        <section className='w-full flex justify-center py-16'>
+        <section className='w-full flex justify-center py-16 ' id="projects">
             <div className='mx-12 w-[1250px] flex flex-col md:flex-row items-center justify-between flex-wrap'>
                 {/* Hero Project */}
                 <a href="http://example.com/" target="_blank" rel="noopener noreferrer"
