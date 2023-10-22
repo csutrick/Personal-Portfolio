@@ -1,7 +1,8 @@
 import { React, useState } from "react";
-import { HiOutlineDocumentText } from 'react-icons/hi'
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail, AiOutlineClose } from 'react-icons/ai'
-import { HiMenu } from 'react-icons/hi'
+import { AiFillGithub, AiFillLinkedin, AiOutlineClose } from 'react-icons/ai';
+import { FaFileDownload } from 'react-icons/fa';
+import { HiMenu } from 'react-icons/hi';
+import resume from '../../Assets/resume.pdf';
 
 const navLinks = [
     { title: 'About', link:'about' },
@@ -49,18 +50,18 @@ const Navbar = () => {
                     )}
                 </div>
                 <div className='flex h-min content-start'>
-                    <div className='flex h-min mx-2'>
-                        <HiOutlineDocumentText className='text-4xl hover:scale-110 text-white hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'/>
-                    </div>
-                    <div className='h-min mx-2'>
-                        <AiFillGithub className='text-4xl text-white hover:scale-110 hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'/>
-                    </div>
-                    <div className='h-min mx-2'>
-                        <AiFillLinkedin className='text-4xl text-white hover:scale-110 hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'/>
-                    </div>
-                    <div className='h-min mx-2'>
-                        <AiOutlineMail className='text-4xl text-white hover:scale-110 hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'/>
-                    </div>
+                    <a href={resume} download="cole-sutrick-resume"
+                    className='flex items-center text-3xl mx-2 hover:scale-110 text-white hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-in transition-all'>
+                        <FaFileDownload />
+                    </a>
+                    <a href="https://github.com/csutrick" target="_blank" rel="noopener noreferrer"
+                    className='flex items-center text-4xl mx-2 hover:scale-110 text-white hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'>
+                        <AiFillGithub />
+                    </a>
+                    <a href="https://www.linkedin.com/in/cole-sutrick-b79b60263/" target="_blank" rel="noopener noreferrer"
+                    className='flex items-center text-4xl mx-2 hover:scale-110 text-white hover:text-[#d6f1f7] active:text-[#59A5D8] duration-200 ease-out transition-all'>
+                        <AiFillLinkedin />
+                    </a>
                 </div>
             </div>
         </nav>
