@@ -3,7 +3,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Bootcamp from "./components/Bootcamp";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from './components/Footer';
@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <body>
           <About />
-          <Bootcamp />
+          <Experience />
           <Projects />
           <Contact />
         </body>

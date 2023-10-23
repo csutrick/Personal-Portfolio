@@ -1,10 +1,10 @@
 import React from "react";
 import webDevBadge from "../../Assets/full-stack-web-development-certificate-coding-boot-camp.png";
 
-const Bootcamp = () => {
+const Experience = () => {
     return (
         <section className='w-full flex justify-center' id="experience">
-            <div className='relative p-8 mx-12 my-16 w-[1250px] flex bg-[#386FA4] rounded-2xl justify-center drop-shadow-lg'>
+            <div className='relative p-14 mx-12 my-16 w-[1250px] bg-[#386FA4] rounded-2xl drop-shadow-lg'>
                 {/* Decoration */}
                 <div className='absolute grid grid-rows-2 grid-cols-2 gap-2 top-0 left-0 drop-shadow-md'>
                     <div className='bg-[#84D2F6] h-[75px] w-[75px] rounded-br-lg rounded-tl-2xl'></div>
@@ -12,22 +12,22 @@ const Bootcamp = () => {
                     <div className='bg-[#59A5D8] h-[50px] w-[50px] rounded-r-lg'></div>
                 </div>
                 {/* Content */}
-                <div className='flex justify-center items-center row-start-2 col-start-1 col-end-5'>
-                    <a className='w-[300px] h-[300px]'
-                        href="https://www.credly.com/badges/b457e4bf-794c-4b33-9270-182d7382b2cc" target="_blank" rel="noopener noreferrer">
-                        <img
-                            className='hover:scale-[103%] drop-shadow-md hover:drop-shadow-xl hover:brightness-105 transition-all duration-100 ease-in-out'
-                            src={webDevBadge}
-                            alt="Web Development Badge"/>
-                    </a>
-                    <div className='flex flex-col font-bold justify-center items-center text-white ml-8'>
-                        <div className='text-center border-b-2 border-white drop-shadow-md'>
-                            <h1 className='text-2xl px-2'>Bootcamp</h1>
-                        </div>
-                        <p className='w-[350px] text-center drop-shadow-md'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, 
-                            fuga. Iure veniam rerum dolore quibusdam nisi blanditiis neque molestias unde!
+                <div className='w-full flex justify-evenly'>
+                    <div className='w-[35%] flex flex-col items-center justify-center p-4 mr-4'>
+                        <h2 className='px-4 text-center text-white font-bold text-5xl border-b-4 border-white'>Experience</h2>
+                        <img src={webDevBadge} alt="Web Development Badge"
+                        className=''
+                        />
+                        <p className='w-full text-white text-center font-bold'>
+                            gjgsahfd jghasfdgja sfddhk sa dash dhsadg hja sh as dads asd
+                            asdahksdb hasdhj ash hasdhas hkashk hkasd hkas sdkha sdhkas dhk
+                            akhnjsdjkasdj jasdj jkasdjk jklasdjk hjknasdbhnj jasdj jasdn jas
                         </p>
+                    </div>
+                    <div className='w-[45%] flex flex-col items-center justify-center ml-4'>
+                        <div className='bg-white w-[100%] h-[200px] mb-4 rounded-lg'>Languages</div>
+                        <div className='bg-white w-[100%] h-[200px] mb-4 rounded-lg'>Languages</div>
+                        <div className='bg-white w-[100%] h-[200px] rounded-lg'>Languages</div>
                     </div>
                 </div>
                 {/* Decoration */}
@@ -41,4 +41,4 @@ const Bootcamp = () => {
     )
 };
 
-export default Bootcamp;
+export default Experience;
