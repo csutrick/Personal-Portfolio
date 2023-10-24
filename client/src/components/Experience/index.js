@@ -1,5 +1,6 @@
 import React from "react";
 import webDevBadge from "../../Assets/full-stack-web-development-certificate-coding-boot-camp.png";
+import badgeData from '../../Assets/badges/index.js';
 
 const Experience = () => {
     return (
@@ -12,11 +13,11 @@ const Experience = () => {
                     <div className='bg-[#59A5D8] h-[50px] w-[50px] rounded-r-lg'></div>
                 </div>
                 {/* Content */}
-                <div className='w-full flex justify-evenly'>
-                    <div className='w-[35%] flex flex-col items-center justify-center p-4 mr-4'>
+                <div className='w-full flex flex-col md:flex-row items-center md:justify-evenly'>
+                    <div className='w-[100%] md:w-[45%] flex flex-col items-center justify-center p-4 mr-4'>
                         <h2 className='px-4 text-center text-white font-bold text-5xl border-b-4 border-white'>Experience</h2>
                         <img src={webDevBadge} alt="Web Development Badge"
-                        className=''
+                        className='max-w-[300px] max-h-[300px] md:max-w-[400px] md:max-h-[400px]'
                         />
                         <p className='w-full text-white text-center font-bold'>
                             gjgsahfd jghasfdgja sfddhk sa dash dhsadg hja sh as dads asd
@@ -24,10 +25,32 @@ const Experience = () => {
                             akhnjsdjkasdj jasdj jkasdjk jklasdjk hjknasdbhnj jasdj jasdn jas
                         </p>
                     </div>
-                    <div className='w-[45%] flex flex-col items-center justify-center ml-4'>
-                        <div className='bg-white w-[100%] h-[200px] mb-4 rounded-lg'>Languages</div>
-                        <div className='bg-white w-[100%] h-[200px] mb-4 rounded-lg'>Languages</div>
-                        <div className='bg-white w-[100%] h-[200px] rounded-lg'>Languages</div>
+                    <div className='bg-[#91E5F6] w-[100%] md:w-[45%] flex flex-col ml-4 p-4 rounded-lg'>
+                        <div className='flex flex-wrap'>
+                            <div className='flex flex-col w-1/3 md:w-1/2 items-center'>
+                                <h3 className='px-4 border-b-2 border-white mb-3 text-white font-bold text-lg lg:text-xl whitespace-nowrap'>Languages</h3>
+                                {badgeData.slice(0, 4).map(badge => (
+                                    <div key={badge.name} className='mb-4 flex flex-col items-center hover:scale-105 duration-150 transition-all ease-in-out'>
+                                        <img src={badge.image} alt={badge.name}
+                                        className='w-[75px] h-[75px]'/>
+                                        <h3 className='ml-2 font-bold text-white'>{badge.name}</h3>
+                                    </div>
+                                ))}
+                            </div>
+                            <div className='flex flex-col w-1/3 md:w-1/2 items-center'>
+                                <h3 className='px-4 border-b-2 border-white mb-3 text-white font-bold text-lg lg:text-xl whitespace-nowrap'>MERN Stack</h3>
+                                {badgeData.slice(4, 8).map(badge => (
+                                    <div key={badge.name} className='mb-4 flex flex-col items-center hover:scale-105 duration-150 transition-all ease-in-out'>
+                                        <img src={badge.image} alt={badge.name}
+                                        className='w-[75px] h-[75px]'/>
+                                        <h3 className='ml-2 font-bold text-white'>{badge.name}</h3>
+                                    </div>
+                                ))}
+                            </div>
+                            <div className='flex w-1/3 md:w-full justify-center'>
+                                <h3 className='px-4 border-b-2 border-white mb-3 text-white font-bold text-lg lg:text-xl'>Other</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* Decoration */}
