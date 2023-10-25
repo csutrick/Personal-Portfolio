@@ -13,13 +13,11 @@ const Contact = () => {
                     <div className='bg-[#91E5F6] h-[50px] w-[50px] rounded-b-lg'></div>
                     <div className='bg-[#59A5D8] h-[50px] w-[50px] rounded-r-lg'></div>
                 </div>
-
                 <h2 className='font-black text-4xl md:text-6xl md:mb-4 px-6
                 border-b-4 border-white text-white whitespace-nowrap'>
                     Contact Me
                 </h2>
                 <OfferForm />
-
                 {/* Decoration */}
                 <div className='absolute grid grid-rows-2 grid-cols-2 gap-2 top-0 right-0 -rotate-90 drop-shadow-md'>
                     <div className='bg-[#59A5D8] h-[50px] w-[50px] rounded-l-lg col-start-2 row-start-1 justify-self-end self-end'></div>
