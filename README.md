@@ -79,8 +79,8 @@ Here are some of the projects I've worked on:
 
 If you'd like to get in touch, discuss a potential project, or just have a chat about web development, feel free to reach out to me:
 
-- Email: [your.email@example.com](csutrick@gmail.com)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/cole-sutrick-b79b60263/)
-- GitHub: [Your GitHub Profile](https://github.com/csutrick)
+- Email: (csutrick@gmail.com)
+- LinkedIn: (https://www.linkedin.com/in/cole-sutrick-b79b60263/)
+- GitHub: (https://github.com/csutrick)
 
 Thank you for visiting my portfolio, and I look forward to connecting with you!
