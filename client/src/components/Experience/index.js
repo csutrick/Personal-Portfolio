@@ -21,7 +21,7 @@ const Experience = () => {
                 {/* Content */}
                 <div className='w-full flex flex-col items-center'>
                     <div className='flex w-full flex-col items-center justify-center mb-2'>
-                        <h2 className='px-4 mb-4 w-min text-center text-white text-5xl border-b-4 border-white font-black tracking-wide'>Experience</h2>
+                        <h2 className='px-4 mb-4 w-min text-center text-white text-6xl border-b-4 border-white font-extrabold tracking-wide'>Experience</h2>
                         <div className='flex flex-col md:flex-row  w-full justify-evenly items-center'>
                             <img src={webDevBadge} alt="Web Development Badge"
                                     className='w-[350] h-[350px] md:mr-4'
@@ -29,9 +29,8 @@ const Experience = () => {
                             <div className='ml-4 flex flex-col w-2/3 md:w-1/3 items-center'>
                                 <h3 className='text-center text-4xl flex w-min font-bold text-white px-4 border-b-2 border-white whitespace-nowrap md:mb-4'>University of<br />Minnesota</h3>
                                 <p className='text-center font-bold text-white text-lg'>
-                                    das khdh sadkhsdha sddb dkasd hba sdkh bakhjdb
-                                    asdasd asds asd a adasd a dsasdasd a dsdad aa sddb
-                                    asda asdas dasda sdasdsa asdasd sas a a sadsdaawd a 
+                                I attended the University of Minnesota’s Full stack web development course from March to August of 2023.
+                                Within the class I developed and learned skills to help me not only code, but to problem solve and work within a group on projects. 
                                 </p>
                             </div>
                         </div>
