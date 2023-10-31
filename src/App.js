@@ -19,8 +19,8 @@ function App() {
         <Navbar />
         <body>
           <About />
-          <Language />
           <Education />
+          <Language />
           <Projects />
         </body>
         <Footer />
