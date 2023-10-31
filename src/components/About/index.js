@@ -26,7 +26,7 @@ const About = () => {
                     <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" 
                     className='w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] rounded-full border-8 border-[#84D2F6] drop-shadow-xl mb-8'></img>
                     <a href={resume} download="cole-sutrick-resume" className='w-[50%]'>
-                        <button className='group flex justify-center items-center w-[100%] px-6 py-4 mb-4 md:mb-0 bg-[#84D2F6] active:bg-[#59A5D8] border-4 border-[#84D2F6] hover:border-[#7ec8eb] text-white font-bold rounded-lg text-2xl
+                        <button className='group flex justify-center items-center w-[100%] px-6 py-4 mb-4 md:mb-0 bg-[#84D2F6] hover:bg-[#59A5D8] active:bg-[#84D2F6] border-4 border-[#84D2F6] hover:border-[#7ec8eb] text-white font-bold rounded-lg text-2xl
                         tracking-normal hover:tracking-widest hover:scale-105 duration-200 ease-out transition-all'><FaFileDownload 
                         className='min-w-[25px] min-h-[25px] mr-2 group-hover:animate-bounce'/>Resume</button>
                     </a>

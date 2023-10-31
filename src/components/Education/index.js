@@ -5,7 +5,7 @@ import badgeData from '../../Assets/badges/index.js';
 const Education = () => {
     return (
         <section className='w-full flex justify-center py-16' id="education">
-            <div className='relative mx-12 w-[1250px] h-[300px] flex justify-center items-center bg-[#59A5D8] rounded-lg'>
+            <div className='relative mx-12 w-[1250px] h-[300px] flex justify-center items-center bg-[#386FA4] rounded-lg'>
                 {/* Decoration */}
                 <div className='absolute grid grid-rows-2 grid-cols-2 gap-2 bottom-0 left-0 -rotate-90 drop-shadow-md'>
                     <div className='bg-[#84D2F6] h-[75px] w-[75px] rounded-br-lg rounded-tl-lg'></div>
