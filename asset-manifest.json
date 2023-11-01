@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.49933a2f.css",
+    "main.js": "/personal-portfolio/static/js/main.f57a6f64.js",
+    "static/media/profilePicture.png": "/personal-portfolio/static/media/profilePicture.e45235bae907f04b3608.png",
+    "static/media/full-stack-web-development-certificate-coding-boot-camp.png": "/personal-portfolio/static/media/full-stack-web-development-certificate-coding-boot-camp.8645db1bb2a2a585a3fb.png",
+    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.98dbaf33e663cad45a1c.pdf",
+    "static/media/Apollo.png": "/personal-portfolio/static/media/Apollo.39dd6c52d69c3735a149.png",
+    "static/media/React.png": "/personal-portfolio/static/media/React.03f4a08772ef1432c935.png",
+    "static/media/Node.png": "/personal-portfolio/static/media/Node.30731d961f170b30341b.png",
+    "static/media/Project3.png": "/personal-portfolio/static/media/Project3.06969c24b47dccddca48.png",
+    "static/media/GraphQl.png": "/personal-portfolio/static/media/GraphQl.99dd228d3822844acd45.png",
+    "static/media/Project2.png": "/personal-portfolio/static/media/Project2.736b70880254e464b365.png",
+    "static/media/ExpressJS.png": "/personal-portfolio/static/media/ExpressJS.27dbc7a17201e31c2ee8.png",
+    "static/media/Project4.png": "/personal-portfolio/static/media/Project4.e87cbb0a35b012b4d00b.png",
+    "static/media/Project1.png": "/personal-portfolio/static/media/Project1.4d84def07b514f9c2ee2.png",
+    "static/media/Hero.png": "/personal-portfolio/static/media/Hero.66c60748b9cefc74002d.png",
+    "static/media/Python.png": "/personal-portfolio/static/media/Python.23c050e143371e8cda5b.png",
+    "static/media/Git.png": "/personal-portfolio/static/media/Git.20eab213ce5cfe1efafa.png",
+    "static/media/MySql.png": "/personal-portfolio/static/media/MySql.1e1c97ddac8a2747a57b.png",
+    "static/media/CSS.png": "/personal-portfolio/static/media/CSS.88170ef067b8ebb4450e.png",
+    "static/media/HTML.png": "/personal-portfolio/static/media/HTML.cfc4dba39aeafc4b882c.png",
+    "static/media/Javascript.png": "/personal-portfolio/static/media/Javascript.1002ab8e970887bee677.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.49933a2f.css.map": "/personal-portfolio/static/css/main.49933a2f.css.map",
+    "main.f57a6f64.js.map": "/personal-portfolio/static/js/main.f57a6f64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49933a2f.css",
+    "static/js/main.f57a6f64.js"
+  ]
+}
