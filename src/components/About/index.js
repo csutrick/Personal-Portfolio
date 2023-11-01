@@ -18,9 +18,9 @@ const About = () => {
                     My name is Cole Sutrick, I am an aspiring full stack web developer based in Shakopee, Minnesota. I am excited to launch my career in web development after dedicating this last year to learning front-end and back-end programming languages and frameworks. I am very passionate about crafting intuitive user interfaces and finding innovative solutions to problems. I am eager to join a team where I can continue acquiring new skills, learn and make contributions to projects, and meet new people.
                     </p>
                     <div className='pt-2 md:pt-4 px-3 md:px-0 grid grid-cols-3 font-semibold tracking-wider text-sm md:text-base lg:text-xl w-[80%] border-t-4 border-[#84D2F6] mx-auto md:mx-0 drop-shadow-md'>
-                        <h2 className='text-left text-[#84D2F6]'>Front End</h2>
-                        <h2 className='text-center md:text-left text-[#84D2F6]'>Backend</h2>
-                        <h2 className='text-right md:text-left text-[#84D2F6]'>Fullstack</h2>
+                        <h2 className='text-left text-[#84D2F6] whitespace-nowrap'>Front End</h2>
+                        <h2 className='text-center md:text-left text-[#84D2F6] whitespace-nowrap'>Backend</h2>
+                        <h2 className='text-right md:text-left text-[#84D2F6] whitespace-nowrap'>Fullstack</h2>
                     </div>
                 </div>
                 <div className='order-1 md:order-2 flex flex-col items-center'>
