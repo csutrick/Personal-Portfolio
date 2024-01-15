@@ -1,5 +1,4 @@
 import React from "react";
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -8,23 +7,18 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
-const client = new ApolloClient({
-  uri: '/graphql',
-  cache: new InMemoryCache(),
-});
-
 function App() {
   return (
-    <ApolloProvider client={client}>
-        <Navbar />
-        <body>
-          <About />
-          <Education />
-          <Language />
-          <Projects />
-        </body>
-        <Footer />
-    </ApolloProvider>
+    <>
+      <Navbar />
+      <div className="mx-12 space-y-24 my-24">
+        <About />
+        <Education />
+        <Language />
+        <Projects />
+      </div>
+      <Footer />
+    </>
   );
 }
 

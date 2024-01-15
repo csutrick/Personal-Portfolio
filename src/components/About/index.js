@@ -6,7 +6,7 @@ import profilePic from '../../Assets/profilePicture.png';
 const About = () => {
     return (
         <section className='w-full flex justify-center' id="about">
-            <div className='mx-12 mt-36 mb-16 w-[1250px] flex flex-col md:flex-row justify-evenly items-center'>
+            <div className='mx-12 w-[1250px] flex flex-col md:flex-row justify-evenly items-center'>
                 <div className='flex flex-col max-w-[60%] md:max-w-[55%] order-2 md:order-1'>
                     <h1 className='font-black text-[#133C55] text-6xl lg:text-7xl text-center md:text-left drop-shadow-md'>
                         LEARN A<br />LITTLE{' '}
