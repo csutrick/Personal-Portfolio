@@ -5,6 +5,7 @@ import ProjectGithub from "./projectGithub";
 const ProjectCard = ({ title, content, image, websiteURL, githubURL }) => {
     return (
         <a href={websiteURL} target="_blank" rel="noopener noreferrer"
+        aria-label={`Learn more about ${title}`}
         style={{ backgroundImage: `url(${image})` }}
         className="relative group h-[350px] w-full transition-all duration-150 ease-in-out
         rounded-xl drop-shadow-md hover:drop-shadow-2xl border-8 border-[#84D2F6] hover:border-[#59A5D8] hover:scale-[1.02]
