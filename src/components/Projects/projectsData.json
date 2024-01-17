@@ -1,43 +1,43 @@
 [
     {
-        "title": "Test 1",
-        "content": "Testing Content 1.",
-        "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+        "title": "Weather Wise",
+        "content": "Full stack weather site using OpenWeatherAPI. Create, login, browse, and add favorites to your account.",
+        "image": "https://i.imgur.com/UZNb6jx.png",
         "websiteURL": "https://example.com/test1",
         "githubURL": "https://github.com/"
     },
     {
-        "title": "Test 2",
-        "content": "Testing Content 2.",
-        "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+        "title": "Quick Note",
+        "content": "Front end dynamic note taker, customize layout to whatever fits you.",
+        "image": "https://i.imgur.com/vI55dxu.png",
         "websiteURL": "https://example.com/test2",
         "githubURL": "https://github.com/"
     },
     {
-        "title": "Test 3",
-        "content": "Testing Content 3.",
-        "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+        "title": "Clothing Store",
+        "content": "Front end clothing store working with API, browse and add items to cart.",
+        "image": "https://i.imgur.com/gAgiTz9.png",
         "websiteURL": "https://example.com/test3",
         "githubURL": "https://github.com/"
     },
     {
-        "title": "Test 4",
-        "content": "Testing Content 4.",
-        "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+        "title": "E-Commerce Backend",
+        "content": "Backend database application for managing your products, tags, and employees.",
+        "image": "https://i.imgur.com/v5Ez47w.png",
         "websiteURL": "https://example.com/test4",
         "githubURL": "https://github.com/"
     },
     {
-        "title": "Test 5",
-        "content": "Testing Content 5.",
-        "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+        "title": "Social Network API",
+        "content": "Backend database managment for your social network.",
+        "image": "https://i.imgur.com/rhDzlVF.png",
         "websiteURL": "https://example.com/test5",
         "githubURL": "https://github.com/"
     },
     {
-        "title": "Test 6",
-        "content": "Testing Content 6.",
-        "image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+        "title": "Note Taker",
+        "content": "Fullstack expressJS site, add and save notes to your database.",
+        "image": "https://i.imgur.com/sYFWerN.png",
         "websiteURL": "https://example.com/test6",
         "githubURL": "https://github.com/"
     }
