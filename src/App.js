@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="mx-12 space-y-24 my-24">
+      <div className="mx-12 space-y-24 mb-24 mt-36">
         <About />
         <Education />
         <Language />
