@@ -16,12 +16,13 @@ const Backend = () => {
     ];
 
     return (
-        <div className="w-3/4 bg-blue-300 flex flex-col items-center justify-center p-2 mt-4 rounded-xl
-        border-8 border-[#59A5D8]">
-            <h2 className="text-4xl font-bold px-4 mb-2 text-white border-b-2 border-white">
+        <div className="w-full md:w-1/3 bg-gray-100 flex flex-col items-center justify-start p-2 mt-4 rounded-xl
+        border-8 border-[#59A5D8] drop-shadow-md">
+            <h2 className="text-4xl font-bold px-4 mb-2 text-[#59A5D8] 
+            whitespace-nowrap border-b-2 border-[#59A5D8] drop-shadow-md">
                 Back-End
             </h2>
-            <div className="flex flex-wrap justify-center">
+            <div className="w-full flex flex-wrap justify-evenly space-x-2 space-y-2">
                 {badgeData.map((badge, index) => (
                     <ItemCard key={index}
                         image={badge.image}
