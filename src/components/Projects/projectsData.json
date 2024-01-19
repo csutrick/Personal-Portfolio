@@ -3,42 +3,42 @@
         "title": "Weather Wise",
         "content": "Full stack weather site using OpenWeatherAPI. Create, login, browse, and add favorites to your account.",
         "image": "https://i.imgur.com/UZNb6jx.png",
-        "websiteURL": "https://example.com/test1",
-        "githubURL": "https://github.com/"
+        "websiteURL": "https://github.com/csutrick/Weather-Wise",
+        "githubURL": "https://github.com/csutrick/Weather-Wise"
     },
     {
         "title": "Quick Note",
         "content": "Front end dynamic note taker, customize layout to whatever fits you.",
         "image": "https://i.imgur.com/vI55dxu.png",
-        "websiteURL": "https://example.com/test2",
-        "githubURL": "https://github.com/"
+        "websiteURL": "https://csutrick.github.io/Quick-Note/",
+        "githubURL": "https://github.com/csutrick/Quick-Note"
     },
     {
         "title": "Clothing Store",
         "content": "Front end clothing store working with API, browse and add items to cart.",
         "image": "https://i.imgur.com/gAgiTz9.png",
-        "websiteURL": "https://example.com/test3",
-        "githubURL": "https://github.com/"
+        "websiteURL": "https://github.com/csutrick/e-store",
+        "githubURL": "https://github.com/csutrick/e-store"
     },
     {
         "title": "E-Commerce Backend",
         "content": "Backend database application for managing your products, tags, and employees.",
         "image": "https://i.imgur.com/v5Ez47w.png",
-        "websiteURL": "https://example.com/test4",
-        "githubURL": "https://github.com/"
+        "websiteURL": "https://drive.google.com/file/d/1Odjc2aMmt2nR4JhQSYWk1k81NduQI8Yt/view",
+        "githubURL": "https://github.com/csutrick/Challenge13"
     },
     {
         "title": "Social Network API",
         "content": "Backend database managment for your social network.",
         "image": "https://i.imgur.com/rhDzlVF.png",
-        "websiteURL": "https://example.com/test5",
-        "githubURL": "https://github.com/"
+        "websiteURL": "https://drive.google.com/file/d/1AIm7n6FdwH0gxr2TvO9f4Kq-Jyd0nmNF/view",
+        "githubURL": "https://github.com/csutrick/Social-Network-API"
     },
     {
         "title": "Note Taker",
         "content": "Fullstack expressJS site, add and save notes to your database.",
         "image": "https://i.imgur.com/sYFWerN.png",
-        "websiteURL": "https://example.com/test6",
-        "githubURL": "https://github.com/"
+        "websiteURL": "https://github.com/csutrick/Challenge11",
+        "githubURL": "https://github.com/csutrick/Challenge11"
     }
 ]
