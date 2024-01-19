@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AiFillGithub } from 'react-icons/ai'
+import { AiFillGithub } from 'react-icons/ai';
 
 const ProjectGithub = ({ githubURL }) => {
     const handleClick = () => {
