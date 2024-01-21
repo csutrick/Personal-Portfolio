@@ -17,28 +17,28 @@
         "title": "Clothing Store",
         "content": "Front end clothing store working with API, browse and add items to cart.",
         "image": "https://i.imgur.com/gAgiTz9.png",
-        "websiteURL": "https://github.com/csutrick/e-store",
-        "githubURL": "https://github.com/csutrick/e-store"
+        "websiteURL": "https://github.com/csutrick/Frontend-Clothing-Store",
+        "githubURL": "https://github.com/csutrick/Frontend-Clothing-Store"
     },
     {
         "title": "E-Commerce Backend",
         "content": "Backend database application for managing your products, tags, and employees.",
         "image": "https://i.imgur.com/v5Ez47w.png",
-        "websiteURL": "https://drive.google.com/file/d/1Odjc2aMmt2nR4JhQSYWk1k81NduQI8Yt/view",
-        "githubURL": "https://github.com/csutrick/Challenge13"
+        "websiteURL": "https://github.com/csutrick/E-Commerce-Back-End",
+        "githubURL": "https://github.com/csutrick/E-Commerce-Back-End"
     },
     {
         "title": "Social Network API",
         "content": "Backend database managment for your social network.",
         "image": "https://i.imgur.com/rhDzlVF.png",
-        "websiteURL": "https://drive.google.com/file/d/1AIm7n6FdwH0gxr2TvO9f4Kq-Jyd0nmNF/view",
+        "websiteURL": "https://github.com/csutrick/Social-Network-API",
         "githubURL": "https://github.com/csutrick/Social-Network-API"
     },
     {
         "title": "Note Taker",
         "content": "Fullstack expressJS site, add and save notes to your database.",
         "image": "https://i.imgur.com/sYFWerN.png",
-        "websiteURL": "https://github.com/csutrick/Challenge11",
-        "githubURL": "https://github.com/csutrick/Challenge11"
+        "websiteURL": "https://github.com/csutrick/Fullstack-Note-Taker",
+        "githubURL": "https://github.com/csutrick/Fullstack-Note-Taker"
     }
 ]
