@@ -53,27 +53,31 @@ Here are some of the technologies and tools I work with:
 
 ## Projects
 
-Here are some of the projects I've worked on:
+Checkout out some of my favorite websites that I have made.
 
-1. **Project 1**
-   - Description: Will be added
-   - GitHub Repository: [Link](https://github.com/csutrick)
+1. **Weather Wise**
+   - Description: Full stack weather site using OpenWeatherAPI. Create, login, browse, and add favorites to your account.
+   - GitHub Repository: [Link](https://github.com/csutrick/Weather-Wise)
 
-2. **Project 2**
-   - Description: Will be added
-   - GitHub Repository: [Link](https://github.com/csutrick)
+2. **Quick Note**
+   - Description: Front end dynamic note taker, customize layout to whatever fits you.
+   - GitHub Repository: [Link](https://github.com/csutrick/Quick-Note)
 
-3. **Project 3**
-   - Description: Will be added
-   - GitHub Repository: [Link](https://github.com/csutrick)
+3. **Clothing Store**
+   - Description: Front end clothing store working with API, browse and add items to cart.
+   - GitHub Repository: [Link](https://github.com/csutrick/Frontend-Clothing-Store)
 
-4. **Project 4**
-   - Description: Will be added
-   - GitHub Repository: [Link](https://github.com/csutrick)
+4. **E-Commerce Backend**
+   - Description: Backend database application for managing your products, tags, and employees.
+   - GitHub Repository: [Link](https://github.com/csutrick/E-Commerce-Back-End)
 
-5. **Project 5**
-   - Description: Will be added
-   - GitHub Repository: [Link](https://github.com/csutrick)
+5. **Social Network API**
+   - Description: Backend database managment for your social network.
+   - GitHub Repository: [Link](https://github.com/csutrick/Social-Network-API)
+
+6. **Fullstack Note Taker**
+   - Description: Fullstack expressJS site, add and save notes to your database.
+   - GitHub Repository: [Link](https://github.com/csutrick/Fullstack-Note-Taker)
 
 ## Contact
 
