@@ -13,6 +13,10 @@ Welcome to my Full Stack Web Developer portfolio! This repository serves as a sh
 
 My name is Cole Sutrick, I am an aspiring full stack web developer based in Shakopee, Minnesota. I am excited to launch my career in web development after dedicating this last year to learning front-end and back-end programming languages and frameworks. I am very passionate about crafting intuitive user interfaces and finding innovative solutions to problems. I am eager to join a team where I can continue acquiring new skills, learn and make contributions to projects, and meet new people.
 
+## Education
+
+I attended the University of Minnesota's Full stack web development course from March to August of 2023. Within the class I developed and learned skills to help me not only code, but to problem solve and work within a group on projects. 
+
 ## Technologies
 
 Here are some of the technologies and tools I work with:
