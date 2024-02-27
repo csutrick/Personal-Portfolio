@@ -2,7 +2,7 @@
   "name": "cole-sutrick-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://csutrick.github.io/personal-portfolio",
+  "homepage": "https://csutrick.github.io/Personal-Portfolio",
   "dependencies": {
     "@apollo/client": "^3.8.4",
     "@testing-library/jest-dom": "^5.17.0",
