@@ -1,10 +1,10 @@
 [
     {
-        "title": "Weather Wise",
+        "title": "Weather App",
         "content": "Full stack weather site using OpenWeatherAPI. Create, login, browse, and add favorites to your account.",
         "image": "https://i.imgur.com/UZNb6jx.png",
-        "websiteURL": "https://github.com/csutrick/Weather-Wise",
-        "githubURL": "https://github.com/csutrick/Weather-Wise"
+        "websiteURL": "https://fullstack-weather-app-656b037f7a91.herokuapp.com/",
+        "githubURL": "https://github.com/csutrick/weather-app"
     },
     {
         "title": "Quick Note",
