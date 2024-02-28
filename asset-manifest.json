@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Personal-Portfolio/static/css/main.eca08f87.css",
+    "main.js": "/Personal-Portfolio/static/js/main.6cd5b32c.js",
+    "static/media/profilePicture.png": "/Personal-Portfolio/static/media/profilePicture.e45235bae907f04b3608.png",
+    "static/media/full-stack-web-development-certificate-coding-boot-camp.png": "/Personal-Portfolio/static/media/full-stack-web-development-certificate-coding-boot-camp.8645db1bb2a2a585a3fb.png",
+    "static/media/resume.pdf": "/Personal-Portfolio/static/media/resume.98dbaf33e663cad45a1c.pdf",
+    "static/media/Apollo.png": "/Personal-Portfolio/static/media/Apollo.39dd6c52d69c3735a149.png",
+    "static/media/React.png": "/Personal-Portfolio/static/media/React.03f4a08772ef1432c935.png",
+    "static/media/Node.png": "/Personal-Portfolio/static/media/Node.30731d961f170b30341b.png",
+    "static/media/GraphQl.png": "/Personal-Portfolio/static/media/GraphQl.99dd228d3822844acd45.png",
+    "static/media/ExpressJS.png": "/Personal-Portfolio/static/media/ExpressJS.27dbc7a17201e31c2ee8.png",
+    "static/media/Python.png": "/Personal-Portfolio/static/media/Python.23c050e143371e8cda5b.png",
+    "static/media/Git.png": "/Personal-Portfolio/static/media/Git.20eab213ce5cfe1efafa.png",
+    "static/media/MySql.png": "/Personal-Portfolio/static/media/MySql.1e1c97ddac8a2747a57b.png",
+    "static/media/CSS.png": "/Personal-Portfolio/static/media/CSS.88170ef067b8ebb4450e.png",
+    "static/media/HTML.png": "/Personal-Portfolio/static/media/HTML.cfc4dba39aeafc4b882c.png",
+    "static/media/Javascript.png": "/Personal-Portfolio/static/media/Javascript.1002ab8e970887bee677.png",
+    "index.html": "/Personal-Portfolio/index.html",
+    "main.eca08f87.css.map": "/Personal-Portfolio/static/css/main.eca08f87.css.map",
+    "main.6cd5b32c.js.map": "/Personal-Portfolio/static/js/main.6cd5b32c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eca08f87.css",
+    "static/js/main.6cd5b32c.js"
+  ]
+}
